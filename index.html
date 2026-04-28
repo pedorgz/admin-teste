@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Painel Administrativo — Sofia Lima Store</title>
+  <title>Painel Administrativo — Closet Arraso</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -351,14 +351,14 @@
       background: linear-gradient(135deg, #e74c3c, #c0392b);
     }
 
-    .toast-body {}
+    .toast-body
     .toast-title {
       font-weight: 600;
       font-size: 0.9rem;
       color: var(--brown-dark);
       margin-bottom: 0.15rem;
     }
-
+    
     .toast-msg {
       font-size: 0.78rem;
       color: var(--brown-light);
@@ -408,7 +408,7 @@
   <!-- Header -->
   <header class="admin-header">
     <p class="store-label">Painel Administrativo</p>
-    <h1>Sofia Lima <em>Store</em></h1>
+    <h1>Close <em>Arraso</em></h1>
     <div class="gold-divider"></div>
   </header>
 
@@ -494,7 +494,7 @@
 
   <!-- Footer -->
   <footer class="admin-footer">
-    © 2025 Sofia Lima Store &nbsp;·&nbsp;
+    © 2026 Closet Arraso &nbsp;·&nbsp;
   </footer>
 
   <!-- Toast -->
@@ -616,7 +616,7 @@
         showToast('success', 'Peça adicionada com sucesso!', `"${name}" já está no catálogo da loja.`);
 
       } catch (err) {
-        console.error('[Sofia Lima Store] Erro:', err);
+        console.error('[Closet Arraso] Erro:', err);
         showToast('error', 'Erro de conexão', 'Verifique sua internet e tente novamente.');
       } finally {
         setLoading(false);
